@@ -1,18 +1,35 @@
+@font-face {
+    font-family: 'fresh';
+    src: url(../fonts/megafresh.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ a:hover {
+        color: #F36AD3;
+    }
 h1{
 font-family: 'Poppins', sans-serif;
-    margin: 0;
+margin: 0;
 font-size: 1.8em;
+text-transform: uppercase;
+    color: #000;
 }
 h2{
-font-family: 'Poppins', sans-serif;
+font-family: 'fresh';
 font-size: 2.5em;
+font-weight: 100;
 }
 h3{
-font-family: 'Poppins', sans-serif;
+font-family: 'fresh', sans-serif;
     margin: 0;
     margin-bottom: 5%;
-    text-align: center;
-font-size: 2.5em;
+    font-size: 2.5em;
+    font-weight: 100;
+    margin-left: 10%;
 }
 h4{
 font-family: 'Poppins', sans-serif;
@@ -22,11 +39,13 @@ font-size: 3em;
 }
 p{
 font-family: 'Montserrat', sans-serif;
-font-size: 1.3em;
+font-size: 1em;
+padding: 40px;
+line-height: 1.5;
 margin: 0;
 font-weight:400;
-text-align: justify;
 }
+
 p2{
  font-family: 'Montserrat', sans-serif;
 font-size: 0.8em;
@@ -161,9 +180,6 @@ a{
     font-weight: 500;
     color: #919191;
 }
-a:hover{
-    color: black;
-}
 
 .dropdown-content a {
     color: black;
@@ -194,8 +210,23 @@ a:hover{
 .blogcontent{
     padding: 5%;
 }
-.blogimg {
-    width: 100%;
+.img-wrap{
+  width: 400px;
+  height: auto;
+  position: relative;
+}
+.img-wrap > .blogimg{
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
 }
 .subimage{
     padding-top: 3%;
@@ -215,6 +246,10 @@ appbar {
     left: 0;
 }
 .home{display: none;
+}
+
+.container {
+    background: #fff;
 }
 .grid-container {
     background-image: url(../img/background.png);
@@ -408,10 +443,6 @@ img {
     line-height: 70px;
 }
 
-.menu:hover {
-    color: grey;
-}
-
 label {
     font-size: 20px;
     line-height: 70px;
@@ -442,6 +473,9 @@ logologo {
 }
 
 @media only screen and (max-width: 800px) {
+     a:hover {
+        color: #F36AD3;
+    }
     label {
         display: block;
         cursor: pointer;
@@ -474,6 +508,7 @@ logologo {
         margin: 0;
     }
 
+
     .logo {
         display: none;
     }
@@ -484,9 +519,13 @@ logologo {
 
 }
 @media only screen and (max-width: 800px) {
+     a:hover {
+        color: #F36AD3;
+    }
     .grid-container {
         background: white;
         display: grid;
+
   grid-template-columns: 100%;
 }
     .introimage2{
@@ -538,9 +577,13 @@ logologo {
           display: grid;
   grid-template-columns: 100%;
 }
+
 }
 
 @media only screen and (min-width: 1000px) {
+     a:hover {
+        color: #F36AD3;
+    }
     .dropdown {
         display: none;
     }
@@ -559,6 +602,15 @@ logologo {
         grid-template-columns: 1fr 1fr;
         grid-gap: 50px;
     }
+    p.pblog {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+     a:hover {
+        color: #F36AD3;
+    }
+
 }
 
 
