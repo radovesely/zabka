@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+    box-sizing: border-box;
 }
  a:hover {
         color: #F36AD3;
@@ -57,7 +58,15 @@ text-align: justify;
 .icon{
     width: 6%;
     margin: 0 10px 0 10px;
+    transition: transform .2s;
 }
+
+.icon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
 #motto {
     font-family: 'Poppins', sans-serif;
     font-size: 4.5em;
@@ -139,7 +148,8 @@ html {
 #galposts {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
+     padding: 5% 12% 3% 12%;
 }
 
 .dropbtn {
@@ -328,10 +338,14 @@ appbar {
     position: relative;
     text-align: center;
     color: black;
+    justify-content: center;
 }
+
+
 .clientsdesktop{
     padding:5%;
     width: 90%;
+
 }
 #gal{
     position: relative;
@@ -356,7 +370,7 @@ appbar {
 }
 .centered {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -410,7 +424,8 @@ img {
   color: #beddef;
   line-height: 32px;
   padding: 24px;
-    width: 20vh;
+  width: 200px;
+  margin-top: 22%;
 
 }
 
@@ -473,8 +488,17 @@ logologo {
 }
 
 @media only screen and (max-width: 800px) {
+
+    h4 {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
      a:hover {
         color: #F36AD3;
+    }
+
+    .icon {
+        width: 11%;
     }
     label {
         display: block;
@@ -488,6 +512,10 @@ logologo {
         display: block;
         padding-left: 20px;
         cursor: pointer;
+        width: 100px;
+        margin-top: 3%;
+        position: absolute;
+        z-index: 3;
     }
     .home{
         padding-top: 60px;
@@ -519,6 +547,9 @@ logologo {
 
 }
 @media only screen and (max-width: 800px) {
+      .bottom {
+        display: none;
+    }
      a:hover {
         color: #F36AD3;
     }
@@ -542,8 +573,9 @@ logologo {
         display: block;
     }
     .clientsmobile{
-        width: 90%;
-        padding:5%;
+      width: 90%;
+        margin-left: 6%;
+        margin-right: 5%;
         display: block;
     }
     .clientsdesktop{
@@ -581,6 +613,8 @@ logologo {
 }
 
 @media only screen and (min-width: 1000px) {
+
+
      a:hover {
         color: #F36AD3;
     }
