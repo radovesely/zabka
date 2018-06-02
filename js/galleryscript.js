@@ -1,3 +1,4 @@
+/*GALLERY SCRIPT*/
 let page = 1;
 let lookingForData = false;
 

@@ -8,7 +8,162 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*..........................MOBILE VERSION..............................*/
 
+h4 {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-top: 15%;
+    font-size: 3em;
+    }
+    a:hover {
+        color: #F36AD3;
+    }
+    .icon {
+        width: 11%;
+        margin: 0 10px 0 10px;
+    transition: transform .2s;
+}
+
+.icon:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .iconlabel {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        width: 26px;
+        float: right;
+        display: block;
+        cursor: pointer;
+    }
+    logologo {
+    padding: 0;
+    margin: 0;
+    float: left;
+        display: block;
+        padding-left: 20px;
+        cursor: pointer;
+        width: 100px;
+        margin-top: 3%;
+        position: absolute;
+        z-index: 3;
+    }
+    .home {
+        padding-top: 60px;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        background: white;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    .logo {
+        display: none;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+.bottom {
+        display: none;
+    }
+    a:hover {
+        color: #F36AD3;
+    }
+    .grid-container {
+        background: white;
+        display: grid;
+        grid-gap: 5%;
+        padding: 5%;
+        grid-template-columns: 100%;
+    }
+
+.shoeimage{
+    padding-top: 5%;
+}
+    .introimage2 {
+        display: block;
+    }
+    .introimage {
+        display: none;
+    }
+    #myVideo {
+        display: none;
+    }
+.intro1{display: none;}
+.intro2{display: block;}
+
+    .clientsmobile {
+        width: 90%;
+        margin-left: 6%;
+        margin-right: 5%;
+        display: block;
+        padding: 20px;
+    }
+    .clientsdesktop {
+        display: none;
+    }
+    .timelinemobile {
+        display: block;
+    }
+    .timelinedesktop {
+        display: none;
+    }
+    .menu {
+        height: 100vh;
+    }
+    .home {
+        display: block;
+    }
+    #motto {
+        display: none;
+    }
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 5%;
+        padding-right: 0;
+        margin-bottom: -5%;
+        margin-top: -10%;
+    }
+    .grid-container3 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .grid-container4 {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-top: 4%;
+        padding-left: 5%;
+        padding-right: 0;
+    }
+.galpadding{
+    padding-top: 11vh;
+}
+
+*/......
 body {
     background: #fff;
 }
@@ -46,6 +201,7 @@ h2 {
     font-weight: 100;
 }
 
+
 h3 {
     font-family: 'fresh', sans-serif;
     margin: 0;
@@ -55,18 +211,10 @@ h3 {
     margin-left: 10%;
 }
 
-h4 {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    margin-top: 15%;
-    font-size: 3em;
-    padding-left: 40px;
-}
-
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    padding: 40px;
+    padding: 20px;
     line-height: 1.5;
     margin: 0;
     font-weight: 400;
@@ -79,40 +227,6 @@ p2 {
     margin: 0;
     font-weight: 200;
     text-align: justify;
-}
-
-.icon {
-    width: 6%;
-    margin: 0 10px 0 10px;
-    transition: transform .2s;
-}
-
-.icon:hover {
-    -ms-transform: scale(1.5);
-    /* IE 9 */
-    -webkit-transform: scale(1.5);
-    /* Safari 3-8 */
-    transform: scale(1.5);
-}
-
-#motto {
-    font-family: 'Poppins', sans-serif;
-    font-size: 4.5em;
-    margin: 0;
-    padding: 0;
-    line-height: 0.9em;
-    text-align: left;
-    position: absolute;
-    top: 35%;
-    margin-left: 40%;
-    color: #fff;
-}
-
-#myVideo {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100vh;
 }
 
 #me {
@@ -182,6 +296,7 @@ html {
     padding: 5% 12% 3% 12%;
 }
 
+/*..........................DROPDOWN MENU/W3SCHOOLS.COM..............................*/
 .dropbtn {
     color: black;
     border: none;
@@ -190,7 +305,6 @@ html {
     padding-top: 2%;
     width: 10%;
 }
-
 .dropbtn:hover,
 .dropbtn:focus {
     background-color: #fff;
@@ -209,7 +323,7 @@ html {
     background-color: #f9f9f9;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 5;
 }
 
 .dropdown-content a {
@@ -228,8 +342,9 @@ html {
 }
 
 .dropdown-content2 {
+    position: absolute;
     width: 100%;
-    z-index: 1;
+    z-index: 5;
     font-size: 1.0em;
 }
 
@@ -278,12 +393,6 @@ img.blogimg {}
     padding-bottom: 3%;
 }
 
-#timelinedesktop {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 appbar {
     width: 100vw;
     height: 300px;
@@ -291,49 +400,8 @@ appbar {
     left: 0;
 }
 
-.home {
-    display: none;
-}
-
 .container {
     background: #fff;
-}
-
-.grid-container {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 5%;
-    padding: 5%;
-}
-
-.grid-container2 {
-    display: grid;
-    grid-template-columns: 55% 45%;
-    padding-left: 5%;
-    padding-right: 0;
-    margin-bottom: -5%;
-    margin-top: -10%;
-}
-
-.grid-container3 {
-    display: grid;
-    grid-template-columns: 55% 45%;
-}
-
-.grid-container4 {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    padding-top: 4%;
-    padding-left: 5%;
-    padding-right: 0;
-}
-
-img.introimage {
-    width: 70%;
-    float: right;
 }
 
 .clients-section {
@@ -341,6 +409,7 @@ img.introimage {
 }
 
 .collab {
+    margin-top: 15%;
     width: 90%;
     right: 0;
     float: right;
@@ -355,7 +424,7 @@ img.introimage {
 
 .corner {
     position: relative;
-    z-index: 2;
+    z-index: 0;
 }
 
 .blogsection {
@@ -384,16 +453,12 @@ img.introimage {
 }
 
 .clients {
-    margin-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     position: relative;
     text-align: center;
     color: black;
     justify-content: center;
-}
-
-img.clientsdesktop {
-    width: 70%;
-    margin-left: 15%;
 }
 
 #gal {
@@ -404,7 +469,7 @@ img.clientsdesktop {
 
 .gallery {
     position: relative;
-    padding: 5% 8% 3% 8%;
+    padding: 10% 8% 5% 8%;
     z-index: 10;
 }
 
@@ -412,12 +477,6 @@ img.clientsdesktop {
     padding: 5%;
     position: relative;
     z-index: 10;
-}
-
-.clientsdesktop {
-    padding: 5%;
-    margin: auto;
-    width: 90%;
 }
 
 .centered {
@@ -458,22 +517,6 @@ button:hover {
     transform: translate(-50%, -50%);
 }
 
-#myVideo2 {
-    display: none;
-}
-
-.introimage2 {
-    display: none;
-}
-
-.clientsmobile {
-    display: none;
-}
-
-.timelinemobile {
-    display: none;
-}
-
 img {
     width: 100%;
 }
@@ -491,45 +534,16 @@ img {
     padding-bottom: 5%;
 }
 
-.logo {
-    order: 1;
-    padding: 1em;
-    font-size: 64px;
-    color: #beddef;
-    line-height: 32px;
-    padding: 24px;
-    width: 200px;
-    margin-top: 22%;
-}
 
 .nav {
     text-align: right;
     height: 70px;
     line-height: 70px;
     z-index: 2000;
-    position: relative;
+    position: fixed;
+    background: #fff;
+    width: 100%;
     box-shadow: 0 5px 15px -10px #111;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #baddad;
-    margin: 25px 0;
-    height: 80px;
-    box-shadow: 0 5px 15px -10px #111;
-    background: white;
-    ;
-    z-index: 1000;
-}
-
-.menu a {
-    clear: right;
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
-    line-height: 70px;
 }
 
 label {
@@ -539,24 +553,6 @@ label {
     width: 26px;
     float: left;
 }
-
-.iconlabel {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-}
-
-logologo {
-    padding: 0;
-    margin: 0;
-    display: none;
-    width: 20%;
-    float: left;
-}
-
 #toggle {
     display: none;
 }
@@ -565,9 +561,8 @@ logologo {
     padding: 5%;
 }
 
-
-
 .mobile-gif {
+    display: block;
     width: 100%;
     height: 100vh;
     background-image: url(../introgif.gif);
@@ -575,123 +570,179 @@ logologo {
     margin-top: -15%;
 }
 
-@media only screen and (max-width: 800px) {
-
-    h4 {
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    a:hover {
-        color: #F36AD3;
-    }
+/*..........................DESKTOP VERSION..............................*/
+@media only screen and (min-width: 800px) {
+  h4 {
+    padding-left: 40px;
+}
     .icon {
-        width: 11%;
+    width: 6%;
+}
+.left {
+    position: absolute;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#motto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5em;
+    margin: 0;
+    padding: 0;
+    line-height: 0.9em;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    margin-left: 40%;
+    color: #fff;
+    display: block;
+}
+#myVideo {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.intro1{display: block;}
+.intro2{display: none;}
+    .blogmain{
+        padding-top: 2%;
     }
-    label {
-        display: block;
-        cursor: pointer;
+
+    .grid-mobile1{
+    display: none;
+}
+.grid-mobile2{
+    display: block;
+}
+.grid-container {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-template-columns: 50% 50%;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.grid-container3 {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+#galposts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
+        padding: 5% 8% 3% 8%;
     }
-    .iconlabel {
-        display: block;
-        cursor: pointer;
-    }
-    logologo {
-        display: block;
-        padding-left: 20px;
-        cursor: pointer;
-        width: 100px;
-        margin-top: 3%;
-        position: absolute;
-        z-index: 3;
-    }
-    .home {
-        padding-top: 60px;
-    }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-    }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-    }
-    .logo {
-        display: none;
-    }
-    #toggle:checked + .menu {
-        display: block;
-    }
+.timelinedesktop {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.home a {
+    display: none;
+}
+img.clientsdesktop {
+    width: 70%;
+    margin-left: 15%;
+}
+.clientsdesktop {
+    display: block;
+    padding: 5%;
+    margin: auto;
+    width: 90%;
+}
+.clientsmobile {
+    display: none;
+}
+.introimage {
+    padding-top: 7%;
+    display: block;
 }
 
-@media only screen and (max-width: 800px) {
-    .bottom {
-        display: none;
-    }
-    a:hover {
-        color: #F36AD3;
-    }
-    .grid-container {
-        background: white;
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    .introimage2 {
-        display: block;
-    }
-    .introimage {
-        display: none;
-    }
-    #myVideo {
-        display: none;
-    }
-    #myVideo2 {
-        width: 100%;
-        display: block;
-    }
-    .clientsmobile {
-        width: 90%;
-        margin-left: 6%;
-        margin-right: 5%;
-        display: block;
-    }
-    .clientsdesktop {
-        display: none;
-    }
-    .timelinemobile {
-        display: block;
-    }
-    .timelinedesktop {
-        display: none;
-    }
-    .menu {
-        height: 100vh;
-    }
-    .home {
-        display: block;
-    }
-    #motto {
-        display: none;
-    }
-    .grid-container2 {
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    .grid-container3 {
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    .grid-container4 {
-        display: grid;
-        grid-template-columns: 100%;
-    }
+img.introimage {
+    width: 70%;
+    float: right;
 }
+.introimage2 {
+    display: none;
+}
+
+.timelinemobile {
+    display: none;
+}
+
+.logo {
+    display: block;
+    order: 1;
+    padding: 1em;
+    font-size: 64px;
+    color: #beddef;
+    line-height: 32px;
+    padding: 24px;
+    width: 200px;
+    margin-top: 30%;
+}
+
+logologo {
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 5px 15px -10px #111;
+    background: white;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    line-height: 70px;
+}
+.iconlabel {
+    display: none;
+}
+.mobile-gif {
+    display: none;
+    }
+.galpadding{
+    padding-top: 0vh;
+}
+    .clients{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .bottom{
+        display: block;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: none;
+        margin: 0;
+    }
+    .menu a {
+        display: block;
+        border-bottom: none;
+        margin: 0;
+    }
 
 @media only screen and (min-width: 1000px) {
 
@@ -707,12 +758,6 @@ logologo {
     .dropdown2 {
         display: inline;
         text-align: center;
-    }
-    #galposts {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 50px;
-        padding: 5% 8% 3% 8%;
     }
     #blogposts {
         display: grid;
