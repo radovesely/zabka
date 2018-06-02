@@ -15,6 +15,7 @@ body {
 
 a:hover {
     color: #F36AD3;
+    cursor: pointer;
 }
 
 h1 {
@@ -22,12 +23,21 @@ h1 {
     margin: 0;
     font-size: 1.8em;
     text-transform: uppercase;
-    color: #fff;
-    ;
+}
+
+#blogheader {
+    color: #000;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     position: absolute;
-    margin-top: 130px;
-    margin-left: 20px;
+    padding: 15px;
     z-index: 1;
+    font-size: 120%;
+    background-color: #fff;
+    font-weight: 900;
+    word-spacing: 5px;
+    border-right: white 6px solid;
+    border-bottom: white 6px solid;
+    overflow: hidden;
 }
 
 h2 {
@@ -106,15 +116,15 @@ p2 {
 }
 
 #me {
-    padding-top: 4%;
-    padding-bottom: 2%;
     width: 100%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
 #me2 {
-    padding-top: 4%;
-    padding-bottom: 2%;
     width: 90%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 input[type=text],
@@ -180,19 +190,21 @@ html {
     padding-top: 2%;
     width: 10%;
 }
-.dropbtn:hover, .dropbtn:focus {
+
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: #fff;
 }
 
 .dropdown {
-     position: relative;
+    position: relative;
     display: inline-block;
     width: 100%;
     text-align: center;
 }
 
 .dropdown-content {
-     display: none;
+    display: none;
     position: absolute;
     background-color: #f9f9f9;
     width: 100%;
@@ -207,9 +219,13 @@ html {
     display: block;
 }
 
-.dropdown a:hover {background-color: #fff}
+.dropdown a:hover {
+    background-color: #fff
+}
 
-.show {display:block;}
+.show {
+    display: block;
+}
 
 .dropdown-content2 {
     width: 100%;
@@ -551,7 +567,7 @@ logologo {
 
 
 
- .mobile-gif {
+.mobile-gif {
     width: 100%;
     height: 100vh;
     background-image: url(../introgif.gif);
@@ -680,8 +696,8 @@ logologo {
 @media only screen and (min-width: 1000px) {
 
     .mobile-gif {
- display: none;
-}
+        display: none;
+    }
     a:hover {
         color: #F36AD3;
     }
@@ -702,12 +718,40 @@ logologo {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 50px;
-    }
-    p.pblog {
-        padding-left: 200px;
-        padding-right: 200px;
+        width: 90%;
+        margin-left: 5%;
     }
     a:hover {
         color: #F36AD3;
+    }
+    .aboutme {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .blogcontent {
+        width: 60%;
+        margin-left: 20%;
+    }
+    #aboutpic {
+        padding: 40px;
+    }
+    #aboutvid {
+        padding: 40px;
+    }
+    p.aboutme {
+        padding: 100px;
+    }
+    p.blogcontent {
+        padding: 100px;
+    }
+    .aligncenter {
+        width: 100%;
+        height: auto;
+    }
+    #subheader {
+        padding-left: 40px;
+    }
+    #logomobile {
+        display: none;
     }
 }
