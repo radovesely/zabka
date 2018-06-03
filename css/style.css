@@ -20,10 +20,6 @@ h4 {
     font-size: 3em;
 }
 
-  .galpadding {
-        padding-top: 11vh;
-    }
-
 a:hover {
     color: #F36AD3;
 }
@@ -195,6 +191,9 @@ a:hover {
     padding-right: 0;
 }
 
+.galpadding {
+    padding-top: 15vh;
+}
 
 */...... body {
     background: #fff;
@@ -626,17 +625,11 @@ label {
     margin-top: -15%;
 }
 
-
-
 /*..........................DESKTOP VERSION..............................*/
 
 @media only screen and (min-width: 800px) {
-
-    .galpadding {
-    padding-top: 0vh;
-}
     h4 {
-        padding-left: 20px;
+        padding-left: 40px;
     }
     .icon {
         width: 6%;
@@ -798,6 +791,9 @@ label {
     }
     .mobile-gif {
         display: none;
+    }
+    .galpadding {
+        padding-top: 0vh;
     }
     .clients {
         padding-top: 5%;
